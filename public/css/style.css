@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Platypi:ital,wght@0,300..800;1,300..800&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+}
+body{
+    background-color: #EFEFEF;
+}
+
+
+/* navbar */
+.logo{
+    size: 10px;
+}
+a>span{
+    color: #EFEFEF;
+}
+a>span:hover{
+    color: #000000;
+    transition: all 0.3s;
+}
+#navbar{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
+}
+
+/* navbar end */
+
+/* home */
+#home .pembuka{
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.7);
+}
+.home .img-fluid{
+    top: 0px;
+}
+
+
+.home .home2 h1 {
+    font-size: 27px;
+    margin-bottom: 5px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.home .home2 .nama{
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.home .home2 p{
+    font-size: 18px;
+    font-weight: 350;
+    color: #EFEFEF;
+    background-color: #000000;
+    padding: 5px;
+    border-radius: 60px;
+}
+
+.home .home2{
+    margin-top: 50px;
+}
+
+h4 .bi{
+    color: #000000;
+    letter-spacing: 15px;
+}
+h4 .bi:hover{
+    color: #00abf0;
+    transition: all 0.3s;
+}
+
+
+.home{
+    margin-top: 55px;
+}
+
+.home .foto {
+    height: 100%;
+    width: 60%;
+    border-radius: 50%;
+    transition: all 1s;
+}
+.home .foto:hover{
+    width: 70%;
+    transform: scale(1);
+    box-shadow: 15px 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+/* end home */
+
+/* about */
+#about .img{
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+
+#about .about{
+    margin-top: 50px;
+}
+
+#about{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#about .card-group{
+    padding-top: 40px;
+}
+#about .skill h3{
+    text-decoration: underline;
+}
+#about .card{
+    margin-top: 40px;
+}
+
+#about .card .itadori{
+    height: 243px;
+}
+
+/* Project */
+#project span.project{
+    background-color: #00abf0;
+    color: #000000;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-size: 25px;
+    transition: 5s;
+
+}
+#project span.project:hover{
+    transform: scale(10);
+    padding-right: 300px;
+
+}
+.tombol{
+    background-color: white;
+    background-color: #00abf0;
+    color: #000000;
+}
+.tombol:hover{
+    transition: all 0.5s;
+    background-color: #000000;
+    color: #00abf0;
+}
+/* Hoby */
+.hobi{
+    color: #EFEFEF;
+    background-color: #000000;
+    padding: 5px 30px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.hobi:hover{
+    padding: 5px 50px;
+    transform: scaleX(2);
+}
+
+
+/* contact */
+form{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+form button.btn{
+    background: linear-gradient(200deg, #00abf0, #000000);
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+form button.btn:hover{
+    background: #cccccc;
+    color: #000000;
+}
+
+form input.btn{
+    background: #CCCCCC;
+    color: #000000;
+    letter-spacing: 2px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+/* contact end*/
+/* footer */
+#footer{
+    background-color: #000000;
+}
+
+#footer .footer1{
+    padding-top: 130px;
+    color: #343434;
+    font-weight: 300px;
+    padding-bottom: 40px;
+}
+
+
+/* footer end */
